@@ -1,0 +1,15 @@
+.git
+.github
+
+README.md
+LICENSE
+
+.vscode
+
+.gitignore
+.dockerignore
+
+architecture/
+assets/
+
+*.md
