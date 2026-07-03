@@ -1,0 +1,339 @@
+/* =====================================================
+   RESET
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* =====================================================
+   BODY
+===================================================== */
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0D1117;
+    color:#FFFFFF;
+    line-height:1.6;
+
+}
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 60px;
+
+    background:#161B22;
+
+    border-bottom:1px solid #30363D;
+
+    position:sticky;
+    top:0;
+
+    z-index:1000;
+
+}
+
+/* =====================================================
+   LOGO
+===================================================== */
+
+.logo h2{
+
+    color:#58A6FF;
+    font-size:30px;
+    font-weight:bold;
+
+}
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:500;
+
+    transition:0.3s;
+
+}
+
+nav a:hover{
+
+    color:#58A6FF;
+
+}
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero{
+
+    text-align:center;
+
+    padding:120px 20px;
+
+}
+
+.tag{
+
+    color:#58A6FF;
+
+    font-size:18px;
+
+    letter-spacing:1px;
+
+}
+
+.hero h1{
+
+    font-size:70px;
+
+    margin-top:20px;
+
+    margin-bottom:20px;
+
+    line-height:1.2;
+
+}
+
+.hero span{
+
+    color:#58A6FF;
+
+}
+
+.hero p{
+
+    font-size:22px;
+
+    color:#C9D1D9;
+
+}
+
+.hero-description{
+
+    width:60%;
+
+    margin:25px auto;
+
+    font-size:20px;
+
+    color:#C9D1D9;
+
+}
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.hero-buttons{
+
+    margin-top:40px;
+
+}
+
+.hero-buttons button{
+
+    padding:15px 35px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+    background:#238636;
+
+    color:white;
+
+}
+
+.secondary{
+
+    background:#21262D;
+
+    color:white;
+
+    border:1px solid #30363D;
+
+}
+
+.hero-buttons button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+
+}
+
+/* =====================================================
+   SECTION TITLE
+===================================================== */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.section-title h2{
+
+    font-size:40px;
+
+    color:#58A6FF;
+
+}
+
+/* =====================================================
+   ABOUT
+===================================================== */
+
+#about{
+
+    padding:100px 10%;
+
+}
+
+.about-container{
+
+    width:80%;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.about-container p{
+
+    font-size:20px;
+
+    color:#C9D1D9;
+
+    margin-bottom:25px;
+
+}
+
+/* =====================================================
+   TECHNOLOGY STACK
+===================================================== */
+
+#tech-stack{
+
+    padding:100px 10%;
+
+}
+
+.tech-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+/* =====================================================
+   CARDS
+===================================================== */
+
+.card{
+
+    background:#161B22;
+
+    border:1px solid #30363D;
+
+    border-radius:12px;
+
+    padding:40px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#58A6FF;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.35);
+
+}
+
+.card h3{
+
+    color:#58A6FF;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+.card p{
+
+    color:#C9D1D9;
+
+    font-size:17px;
+
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer{
+
+    text-align:center;
+
+    padding:35px;
+
+    margin-top:100px;
+
+    border-top:1px solid #30363D;
+
+    color:#8B949E;
+
+}
